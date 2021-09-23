@@ -8,4 +8,7 @@ resolve error
 1. You might have mismatching versions of React and the renderer (such as React DOM)
 2. You might be breaking the Rules of Hooks
 3. You might have more than one copy of React in the same app
-* 
+* react와 react-Dom의 버전차이일 수 있다. update 후 작동됨. 
+* npm update --force, 브라우저 쿠키삭제
+
+#### 
