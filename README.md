@@ -11,4 +11,5 @@ resolve error
 * react와 react-Dom의 버전차이일 수 있다. update 후 작동됨. 
 * npm update --force, 브라우저 쿠키삭제
 
-#### 
+#### ??? is not defined
+* import나 선언 실수
