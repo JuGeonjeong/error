@@ -22,3 +22,12 @@ resolve error
 * 일단 서버 재시작
 
 ---
+
+#### mysql
+* mysql이 예기치 않게 종료되었습니다 -> 버전 8.0.22로 
+* MySQL PID 파일 생성 에러 -> MySQL 데이터 디렉토리의 소유권 변경 sudo chown -R mysql:mysql /usr/local/var/mysql -> sudo chmod -R 777 /usr/local/var/mysql -> sudo mysql.server start 해결
+* mysql localhost 실행시 로딩화면에서 진전없음 -> 삭제 후 localhost실행, config.json파일 비밀번호 재설정 후 해결
+* Unknown database '????' -> '????'라는 데이터베이스가 존재하지 않아서 발생되는 오류 -> npx sequelize db:create 해결
+* 
+
+---
