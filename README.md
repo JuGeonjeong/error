@@ -31,3 +31,6 @@ resolve error
 * 
 
 ---
+
+#### nestJS
+* Error: Nest can't resolve dependencies of the RecordImageService (?). Please make sure that the argument RecordRepository at index [0] is available in the RecordImageModule context. -> index[0] 위치의 Clsex--Repository가 Module 에서 사용가능한지 확인한다. -> constructor 내부에 첫번째로 주입된 Repository 를 가리킨다. 해당 레포지토리를 module 에서 사용하려면 module 내부에서도 레포지토리를 주입해야 한다.
